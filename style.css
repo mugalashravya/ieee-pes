@@ -1,0 +1,106 @@
+body {
+    font-family: koh santepheap;;
+    background-color: #008DDA;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.logo-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start; 
+    margin-top: 20px; 
+    width: 100%; 
+}
+
+.logo-container img {
+    width: 9%;
+}
+
+.college-logo {
+    width: 15%;
+    height:auto;
+    margin-left: 2%;
+}
+
+.pes-logo {
+    width: 9%;
+    height: auto;
+    margin-left: 25%;
+}
+.ieee-vbit-sb-logo {
+    width: 2%;
+    height: auto;
+    margin-left: 30%;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: #000;
+}
+
+.question {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 3rem;
+}
+.options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.options label {
+    margin: 5px;
+}
+
+.option {
+    padding: 10px 20px;
+    /*background-color: #007bff;*/
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/*.option:hover {
+    background-color: #0056b3;
+}
+button {
+    border: none;
+    color: #000000;
+    margin: 1rem 0;
+    font-size: 18px;
+    padding: 0.5rem;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5rem;
+    background: #41C9E2;
+}
+button:hover {
+    background: #ACE2E1;
+}*/
+button {
+    border: none;
+    color: #000000;
+    margin: 1rem 0;
+    font-size: 24px; /* Increased font size */
+    padding: 1rem; /* Increased padding */
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5rem;
+    background: #41C9E2;
+}
+
+button:hover {
+    background: #ACE2E1;
+}
